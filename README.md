@@ -6,4 +6,4 @@ Example using Angularjs + TDD (Test Driven Development)
 *TDD
 *Auto Mapper
 *DI
-Developed by Marcos Vinícius
+ - Developed by Marcos Vinícius
