@@ -6,4 +6,3 @@ Angularjs + DDD-NLayer Sample:
 *Auto Mapper
 *DI
 Sample application to start managing personal finances.
- - Developed by Marcos Vinícius
