@@ -1,0 +1,21 @@
+﻿
+<!DOCTYPE html>
+<html ng-app="expensemanagerApp">
+<head>
+    <title>Ng-View</title>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/angularjs")
+</head>
+<body>
+    <div class="container">
+        <div ng-view>
+            <!--Views are injected here based on route.-->
+        </div>
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Expense Manager - Angularjs - 1.6.5 Application - Marcos Vinícius</p>
+        </footer>
+    </div>
+</body>
+</html>

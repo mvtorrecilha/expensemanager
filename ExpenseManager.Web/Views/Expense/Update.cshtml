@@ -1,0 +1,23 @@
+﻿<h2>Edit Expense</h2>
+
+<div>
+    <form>
+        <div class="form-group">
+            <label>Amount</label>
+            <input type="text" class="form-control" ng-model="Amount">
+        </div>
+        <div class="form-group">
+            <label>Date</label>
+            <input type="date" class="form-control" ng-model="Date">
+        </div>
+        <div class="form-group">
+            <label for="categorySelect">Category</label>
+            <select id="sel" class="form-control" ng-model="SelectedValue" ng-options="obj.Id as obj.Name for obj in Categories">
+                <option value="">Category</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary" ng-click="Save()">Save</button>
+    </form>
+    <br />
+    <div ng-class="resultCss">{{message}}</div>
+</div>

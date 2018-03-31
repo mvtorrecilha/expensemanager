@@ -1,0 +1,15 @@
+D:\Marcos\Projetos\ExpenseManager\ExpenseManager.Domain.Entities\bin\Debug\ExpenseManager.Domain.Entities.dll
+D:\Marcos\Projetos\ExpenseManager\ExpenseManager.Domain.Entities\bin\Debug\ExpenseManager.Domain.Entities.pdb
+D:\Marcos\Projetos\ExpenseManager\ExpenseManager.Domain.Entities\obj\Debug\ExpenseManager.Domain.Entities.dll
+D:\Marcos\Projetos\ExpenseManager\ExpenseManager.Domain.Entities\obj\Debug\ExpenseManager.Domain.Entities.pdb
+D:\Marcos\Projetos\ExpenseManager\ExpenseManager.Domain.Entities\obj\Debug\ExpenseManager.Domain.Entities.csprojResolveAssemblyReference.cache
+D:\Projetos\ExpenseManager\ExpenseManager.Domain.Entities\bin\Debug\ExpenseManager.Domain.Entities.dll
+D:\Projetos\ExpenseManager\ExpenseManager.Domain.Entities\bin\Debug\ExpenseManager.Domain.Entities.pdb
+D:\Projetos\ExpenseManager\ExpenseManager.Domain.Entities\obj\Debug\ExpenseManager.Domain.Entities.csprojResolveAssemblyReference.cache
+D:\Projetos\ExpenseManager\ExpenseManager.Domain.Entities\obj\Debug\ExpenseManager.Domain.Entities.dll
+D:\Projetos\ExpenseManager\ExpenseManager.Domain.Entities\obj\Debug\ExpenseManager.Domain.Entities.pdb
+E:\Projects\Projetos\ExpenseManager\ExpenseManager.Domain.Entities\bin\Debug\ExpenseManager.Domain.Entities.dll
+E:\Projects\Projetos\ExpenseManager\ExpenseManager.Domain.Entities\bin\Debug\ExpenseManager.Domain.Entities.pdb
+E:\Projects\Projetos\ExpenseManager\ExpenseManager.Domain.Entities\obj\Debug\ExpenseManager.Domain.Entities.csproj.CoreCompileInputs.cache
+E:\Projects\Projetos\ExpenseManager\ExpenseManager.Domain.Entities\obj\Debug\ExpenseManager.Domain.Entities.dll
+E:\Projects\Projetos\ExpenseManager\ExpenseManager.Domain.Entities\obj\Debug\ExpenseManager.Domain.Entities.pdb

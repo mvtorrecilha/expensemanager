@@ -1,0 +1,14 @@
+﻿@model IEnumerable<ExpenseManager.Web.ViewModels.ExpenseViewModel>
+<div>
+    <h2>Expenses</h2>
+
+    <div class="row">
+        <div class="col-lg-3">
+            <button id="btnCreate" type="button" class="btn btn-info" ng-click="Create()">Register Expense</button>
+        </div>
+    </div>
+    <br />
+    <div id="_AllExpenses">
+        @Html.Partial("~/Views/Expense/Partials/_ExpenseList.cshtml", Model)
+    </div>
+</div>

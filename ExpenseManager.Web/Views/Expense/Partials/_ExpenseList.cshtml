@@ -1,0 +1,34 @@
+﻿
+<div class="row">
+    <div class="col-lg-3">
+        <input id="txt-search" type="text" class="form-control left" ng-model="SearchCriteria" placeholder="What are you looking for?">
+    </div>
+</div>
+
+<table class="table table-striped table-hover" ng-show="Expenses.length > 0">
+    <tr>
+        <th>
+            <a href="" ng-click="orderBy('Name')" />Name
+        </th>
+        <th>
+            <a href="" ng-click="orderBy('Amount')" />Amount
+        </th>
+        <th>
+            <a href="" ng-click="orderBy('Date')" />Date
+        </th>
+        <th>Options</th>
+    </tr>
+    <tr ng-repeat="expense in Expenses | filter: SearchCriteria | orderBy: sortCriteria">
+        <td>{{expense.Category.Name}}</td>
+        <td>{{expense.Amount | currency:"$"}}</td>
+        <td>{{expense.Date | asDate | date: 'dd-MM-yyyy'}}</td>
+        <td>
+            <button ng-click="Edit(expense.Id)">
+                Edit
+            </button>
+            <button ng-click="Delete(expense.Id)">
+                Delete
+            </button>
+        </td>
+    </tr>
+</table>
